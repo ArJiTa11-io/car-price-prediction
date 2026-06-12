@@ -26,7 +26,7 @@ This system transitions loose notebook experimentation into a clean, decoupled s
 
 ### 🔄 Data Hygiene Layer
 * **Dynamic Lifecycle Tracking:** Calculates precise temporal asset depreciation by transforming raw timestamps directly into a live numeric feature:
-  $$\text{Car\_Age} = 2026 - \text{Year}$$
+ $$\text{Car\_Age} = 2026 - \text{Year}$$
 * **Mathematical Collinearity Pruning:** Enforces dummy variable trap prevention (`drop_first=True`) during feature matrix binarization to keep regression estimators mathematically stable.
 
 ### 🤖 Ensemble Modeling Context
